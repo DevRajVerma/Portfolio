@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="text-and-image">
         <div className="intro-text">
           <h1>Dev Raj Verma</h1>
-          <p>Full Stack Web Development is my niche, but I can literally do anything, web, app, mechanical works, civil works, plumbing works, rocket science works. Want to create a youtube video, call me, Want to do SEO, SEM, call me, Want to make rockets, call me, Want to reconstruct a mine, call me. It just depends on how much money you can give me. Can you afford me?</p>
+          <p>Full Stack Web Development is my niche</p>
           <a href="#contact" className="cta-button">Let’s get started</a>
         </div>
         <div className="profile-picture">
