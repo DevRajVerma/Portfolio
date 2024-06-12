@@ -19,7 +19,7 @@ const Header = () => {
           <li><a href="#home">Home</a></li>
           <li><a href="#case-studies">Case Studies</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#recent-work">Recent Work</a></li>
+          {/* <li><a href="#recent-work">Recent Work</a></li> */}
           <li><a href="#contact">Get In Touch</a></li>
         </ul>
         <div className="social-links">

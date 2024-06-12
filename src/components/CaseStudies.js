@@ -46,7 +46,7 @@ const CaseStudies = () => {
                 <span className="category">{study.category}</span>
                 <h3>{study.title}</h3>
                 <p>{study.description}</p>
-                <a href="#" className="cta-button">{study.buttonLabel}</a>
+                <a href="https://www.google.com/" className="cta-button">{study.buttonLabel}</a>
               </div>
             </div>
           ))}
