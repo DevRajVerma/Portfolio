@@ -1,0 +1,14 @@
+/* src/components/Header.css */
+header {
+    background: #000;
+    padding: 1em;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }

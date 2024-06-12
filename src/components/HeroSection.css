@@ -1,0 +1,85 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  background: #111;
+  color: #fff;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text-and-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.intro-text {
+  max-width: 50%;
+}
+
+.intro-text h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.intro-text p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.cta-button {
+  background: #4caf50;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #45a049;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.worked-with {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.worked-with h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.worked-with .logos {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.worked-with .logos img {
+  height: 42px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.worked-with .logos img:hover {
+  opacity: 1;
+}
