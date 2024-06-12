@@ -1,0 +1,133 @@
+/* src/components/CaseStudies.css */
+.case-studies-section {
+    padding: 4em 2em;
+    background: #f5f5f5;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #4caf50;
+    display: block;
+    margin: 0.5em auto;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: #666;
+  }
+  
+  .case-studies {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  
+  .case-study {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .case-study:hover {
+    transform: scale(1.02);
+  }
+  
+  .case-study:nth-child(even) {
+    flex-direction: row;
+  }
+  
+  .case-study-content {
+    flex: 1;
+    padding: 1em;
+    position: relative;
+  }
+  
+  .case-study-content::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(to bottom, #4caf50, #8bc34a);
+    left: -1em;
+    top: 0;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .category {
+    display: inline-block;
+    background: #ffd700;
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+  }
+  
+  .case-study-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .case-study-content p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    color: #666;
+  }
+  
+  .case-study-content .cta-button {
+    background: #4caf50;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+  }
+  
+  .case-study-content .cta-button:hover {
+    background: #45a049;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 1);
+  }
+  
+  .case-study-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .case-study-image img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .case-study-image img:hover {
+    transform: scale(1.1);
+  }
+  

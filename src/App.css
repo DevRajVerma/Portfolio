@@ -1,7 +1,7 @@
 /* src/App.css */
 .App {
   text-align: center;
-  overflow: hidden;
+  
 }
 
 /* src/components/Header.css */
@@ -17,4 +17,15 @@ header nav ul {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

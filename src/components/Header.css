@@ -12,3 +12,8 @@ header {
     color: #fff;
     text-decoration: none;
   }
+
+  .social-links a {
+    margin: 0 10px; /* Adjust the value as needed */
+  }
+  
