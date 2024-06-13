@@ -19,7 +19,7 @@ const HeroSection = () => {
           
         </div>
         <div className="profile-picture">
-          <img src="profile-pic.png" alt="Your Name" />
+          <img src="profile-pic.png" alt="Your Name" className="lode"/>
         </div>
 
         </div>
