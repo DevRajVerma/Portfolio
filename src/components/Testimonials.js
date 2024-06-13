@@ -1,6 +1,13 @@
 import React from 'react';
 import './Testimonials.css';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+
+
+
+
 const testimonials = [
   {
     text: 'Working with Dev Raj was a game-changer for our company. His expertise in the MERN stack and attention to detail helped us launch our project seamlessly. He’s not just a developer; he’s a problem solver who understands the bigger picture. Highly recommend!',

@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 

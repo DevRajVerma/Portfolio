@@ -1,6 +1,11 @@
 import React from 'react';
 import '../App.css';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+
+
 const ResponsiveButton = ({ text }) => {
   return (
     <div className="hero-container">

@@ -1,6 +1,11 @@
 import React from 'react';
 import './Contact.css';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+
+
 const ContactPage = () => {
   return (
     <div id="contact" className="contact-page">

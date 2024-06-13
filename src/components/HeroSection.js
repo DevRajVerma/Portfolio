@@ -3,6 +3,11 @@ import React from 'react';
 import './HeroSection.css';
 import ResponsiveButton from './ResponsiveButton';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+
+
 const HeroSection = () => {
   return (
     <section id="home" className="hero-section">
