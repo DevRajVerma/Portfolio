@@ -29,7 +29,7 @@ const Header = () => {
           <li><a href="#testimonials" onClick={toggleMenu}>Testimonials</a></li>
           <li><a href="#contact" onClick={toggleMenu}>Get In Touch</a></li>
         </ul>
-        <div className="social-links">
+        <div className="social-links" >
           <a href="https://www.linkedin.com/in/dev-raj-verma-310ab21b4/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
           <a href="https://x.com/Dev91854734/"><FontAwesomeIcon icon={faTwitter} /></a>
           <a href="https://www.instagram.com/dev__raj_verma/"><FontAwesomeIcon icon={faInstagram} /></a>

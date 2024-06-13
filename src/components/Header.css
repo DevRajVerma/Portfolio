@@ -55,6 +55,9 @@
 .social-links {
   display: flex;
   align-items: center;
+  
+  padding-right: 5px;
+
 }
 
 .social-links a {
