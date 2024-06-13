@@ -9,7 +9,7 @@ const ContactPage = () => {
       <form>
         <div className="form-group">
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Please enter your email" required />
+          <input type="email" id="email" name="email" placeholder="Please enter your email" size="5" required />
         </div>
         <div className="form-group">
           <label htmlFor="mobile">Mobile</label>
