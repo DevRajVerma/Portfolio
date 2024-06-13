@@ -1,6 +1,7 @@
 // src/components/HeroSection.js
 import React from 'react';
 import './HeroSection.css';
+import ResponsiveButton from './ResponsiveButton';
 
 const HeroSection = () => {
   return (
@@ -9,8 +10,17 @@ const HeroSection = () => {
         <div className="text-and-image">
         <div className="intro-text">
           <h1>Dev Raj Verma</h1>
-          <p>Full Stack Web Development is my niche</p>
-          <a href="#contact" className="cta-button">Let’s get started</a>
+          <p>Full Stack Web Development is my niche
+            dskfjasjdfj s
+            sdfkjasdl fjas
+            df asdjfklj asd
+            fjasdklf jas
+            dkfjklsdfsdfjasdjfk jasdlkfj 
+            asdf klasdflkj asdjfkla sjdflkjasdklfj aksdjfk jasdfkj sdfkjasd fjas
+          </p>
+          {/* <a href="#contact" >Let’s get started</a> */}
+          <a href="#contact"> <ResponsiveButton text="Let's get Started"/></a>
+          
         </div>
         <div className="profile-picture">
           <img src="profile-pic.png" alt="Your Name" />

@@ -1,19 +1,20 @@
 // src/components/CaseStudies.js
 import React from 'react';
 import './CaseStudies.css';
+import ResponsiveButton from './ResponsiveButton';
 
 const caseStudies = [
   {
     category: 'E-commerce',
     title: 'Gift Wala',
-    description: 'It is an ecommerce platform especially designed for gifts, where a seller can lists his products and a buyer can easily purchase whatever he/she likes',
+    description: 'It is an ecommerce platform, where a seller can lists his products and a buyer can easily purchase whatever he/she likes',
     buttonLabel: 'View case study',
     imageUrl: 'CaseStudies/Gift-wala.png',
   },
   {
     category: 'Shop Management',
     title: 'Muskan Trading Company',
-    description: 'It is a shop management system where all the purchase entries get registered, like buying items from which mills, sellings to which wholesaler, what the item is, price and quantity of items, data and time of purchase etc.',
+    description: 'It is a shop management system where all the purchase entries get registered, like buying items from which mills.',
     buttonLabel: 'View case study',
     imageUrl: 'CaseStudies/Muskan-trading-company.png',
   },
@@ -46,7 +47,9 @@ const CaseStudies = () => {
                 <span className="category">{study.category}</span>
                 <h3>{study.title}</h3>
                 <p>{study.description}</p>
-                <a href="https://www.google.com/" className="cta-button">{study.buttonLabel}</a>
+                <a href="https://www.google.com/" >
+                <ResponsiveButton text= {study.buttonLabel}/>
+                </a>
               </div>
             </div>
           ))}
