@@ -10,13 +10,9 @@ const HeroSection = () => {
         <div className="text-and-image">
         <div className="intro-text">
           <h1>Dev Raj Verma</h1>
-          <p>Full Stack Web Development is my niche
-            dskfjasjdfj s
-            sdfkjasdl fjas
-            df asdjfklj asd
-            fjasdklf jas
-            dkfjklsdfsdfjasdjfk jasdlkfj 
-            asdf klasdflkj asdjfkla sjdflkjasdklfj aksdjfk jasdfkj sdfkjasd fjas
+          {/* <h2>Full Stack Web Developer</h2> */}
+          <p>
+          A passionate and dedicated Full Stack Web Developer. My journey in web development has been fueled by a love for creating seamless user experiences and efficient backend solutions. I'm eager to bring my technical knowledge, creativity, and enthusiasm to innovative projects. Please feel free to get in touch if you'd like to discuss potential collaborations or opportunities.
           </p>
           {/* <a href="#contact" >Let’s get started</a> */}
           <a href="#contact"> <ResponsiveButton text="Let's get Started"/></a>

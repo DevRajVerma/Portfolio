@@ -1,18 +1,28 @@
 // src/components/Header.js
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
       <nav className="nav">
-        <ul className="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#case-studies">Case Studies</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Get In Touch</a></li>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={faBars} />
+        </div>
+        <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
+          <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+          <li><a href="#case-studies" onClick={toggleMenu}>Case Studies</a></li>
+          <li><a href="#testimonials" onClick={toggleMenu}>Testimonials</a></li>
+          <li><a href="#contact" onClick={toggleMenu}>Get In Touch</a></li>
         </ul>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/dev-raj-verma-310ab21b4/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
