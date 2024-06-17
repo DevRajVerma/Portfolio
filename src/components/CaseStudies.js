@@ -52,7 +52,7 @@ const CaseStudies = () => {
                 <span className="category">{study.category}</span>
                 <h3>{study.title}</h3>
                 <p>{study.description}</p>
-                <a href="https://www.google.com/" >
+                <a href="https://gift-wala.vercel.app/" >
                 <ResponsiveButton text= {study.buttonLabel}/>
                 </a>
               </div>
