@@ -15,20 +15,23 @@ const caseStudies = [
     description: 'It is an ecommerce platform, where a seller can lists his products and a buyer can easily purchase whatever he/she likes',
     buttonLabel: 'View case study',
     imageUrl: 'CaseStudies/Gift-wala.png',
+    sitelink: 'https://giftwala.vercel.app/'
   },
   {
     category: 'Shop Management',
-    title: 'Muskan Trading Company',
-    description: 'It is a shop management system where all the purchase entries get registered, like buying items from which mills.',
+    title: 'Software App',
+    description: 'It is an online platform offering exclusive discounts on premium business tools. It provides access to essential software at significantly reduced prices, helping businesses save over $1,500 on tools that drive growth.',
     buttonLabel: 'View case study',
-    imageUrl: 'CaseStudies/Muskan-trading-company.png',
+    imageUrl: 'CaseStudies/Softwareapp.png',
+    sitelink: 'https://software-store-main.vercel.app/'
   },
   {
-    category: 'Frontend Development',
+    category: 'Frontend Development Intern',
     title: 'Rapture Technologies',
     description: 'It is an online learning platform, a south-east-India based Startup. I did a one month intership remotely making webpages for the company and learning a lot of things.',
     buttonLabel: 'View case study',
     imageUrl: 'CaseStudies/Rapture.png',
+    sitelink: 'http://rapturetechnology.com/'
   },
 ];
 
@@ -52,7 +55,7 @@ const CaseStudies = () => {
                 <span className="category">{study.category}</span>
                 <h3>{study.title}</h3>
                 <p>{study.description}</p>
-                <a href="https://gift-wala.vercel.app/" >
+                <a target='_blank' rel='noopener noreferrer' href={study.sitelink} >
                 <ResponsiveButton text= {study.buttonLabel}/>
                 </a>
               </div>

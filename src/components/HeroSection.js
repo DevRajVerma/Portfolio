@@ -17,7 +17,7 @@ const HeroSection = () => {
           <h1 className="landbc">Dev Raj Verma</h1>
           {/* <h2>Full Stack Web Developer</h2> */}
           <p>
-          A passionate and dedicated Full Stack Web Developer. My journey in web development has been fueled by a love for creating seamless user experiences and efficient backend solutions. I'm eager to bring my technical knowledge, creativity, and enthusiasm to innovative projects. Please feel free to get in touch if you'd like to discuss potential collaborations or opportunities.
+          Let’s build your first MVP! Whether it’s a website or a MERN project, I’ll help bring your ideas to life and turn your vision into reality.
           </p>
           {/* <a href="#contact" >Let’s get started</a> */}
           <a href="#contact"> <ResponsiveButton text="Let's get Started"/></a>
