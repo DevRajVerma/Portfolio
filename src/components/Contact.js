@@ -10,15 +10,15 @@ const ContactPage = () => {
   return (
     <div id="contact" className="contact-page">
       <h1>Get In Touch</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Want to connect? Drop a message and let’s make things happen!</p>
       <form>
         <div className="form-group">
           <label htmlFor="email">Email</label>
           <input type="email" id="email" name="email" placeholder="Please enter your email" size="5" required />
         </div>
         <div className="form-group">
-          <label htmlFor="mobile">Mobile</label>
-          <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile" required />
+          <label htmlFor="mobile">Mobile (Optional)</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile" />
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
