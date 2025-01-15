@@ -20,7 +20,7 @@ const HeroSection = () => {
           Let’s build your first MVP! Whether it’s a website or a MERN project, I’ll help bring your ideas to life and turn your vision into reality.
           </p>
           {/* <a href="#contact" >Let’s get started</a> */}
-          <a href="#contact"> <ResponsiveButton text="Let's get Started"/></a>
+          <a href="#case-studies"> <ResponsiveButton text="Let's get Started"/></a>
           
         </div>
         <div className="profile-picture">

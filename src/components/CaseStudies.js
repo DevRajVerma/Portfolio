@@ -9,29 +9,30 @@ import { useLocation } from 'react-router-dom';
 
 
 const caseStudies = [
-  {
-    category: 'E-commerce',
-    title: 'Gift Wala',
-    description: 'It is an ecommerce platform, where a seller can lists his products and a buyer can easily purchase whatever he/she likes',
-    buttonLabel: 'View case study',
-    imageUrl: 'CaseStudies/Gift-wala.png',
-    sitelink: 'https://giftwala.vercel.app/'
-  },
+  
   {
     category: 'Shop Management',
     title: 'Software App',
     description: 'It is an online platform offering exclusive discounts on premium business tools. It provides access to essential software at significantly reduced prices, helping businesses save over $1,500 on tools that drive growth.',
-    buttonLabel: 'View case study',
+    buttonLabel: 'View Project',
     imageUrl: 'CaseStudies/Softwareapp.png',
     sitelink: 'https://software-store-main.vercel.app/'
   },
   {
-    category: 'Frontend Development Intern',
-    title: 'Rapture Technologies',
-    description: 'It is an online learning platform, a south-east-India based Startup. I did a one month intership remotely making webpages for the company and learning a lot of things.',
-    buttonLabel: 'View case study',
-    imageUrl: 'CaseStudies/Rapture.png',
-    sitelink: 'http://rapturetechnology.com/'
+    category: 'E-commerce',
+    title: 'Gift Wala',
+    description: 'It is an ecommerce platform, where a seller can lists his products and a buyer can easily purchase whatever he/she likes',
+    buttonLabel: 'View Project',
+    imageUrl: 'CaseStudies/Gift-wala.png',
+    sitelink: 'https://giftwala.vercel.app/'
+  },
+  {
+    category: 'Web Development Intern',
+    title: 'GAOTek Inc.',
+    description: 'GAOTek is a leading supplier of test and measurement equipment for fiber optics, telecommunications. I did a three month intership remotely making webpages for the company and learning a lot of things.',
+    buttonLabel: 'View Certificate',
+    imageUrl: 'CaseStudies/GaoTek.png',
+    sitelink: 'https://drive.google.com/file/d/12kwuJnr4MxtuPzhz6s2yrDymQ4mkOx7i/view?usp=sharing'
   },
 ];
 
@@ -39,7 +40,7 @@ const CaseStudies = () => {
   return (
     <section id="case-studies" className="case-studies-section">
       <div className="container">
-        <h2 className="section-title">Case Studies</h2>
+        <h2 className="section-title">Projects</h2>
         <p className="section-subtitle">
           Solving user & business problems since last 1.5+ years.
           <br />
