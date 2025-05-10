@@ -27,7 +27,7 @@ const HeroSection = () => {
       />
 
       {/* Content container */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl gap-12 md:gap-16">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl gap-12 md:gap-16 pt-2">
         {/* Text Section */}
         <motion.div
           className="w-full md:w-1/2 text-center md:text-left px-2"

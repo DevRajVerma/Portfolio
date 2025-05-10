@@ -34,7 +34,7 @@ const Testimonials = () => {
           Hear what my clients have to say about my work and services.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}

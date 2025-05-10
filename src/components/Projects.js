@@ -59,7 +59,7 @@ const CaseStudies = () => {
           </p>
         </motion.div>
 
-        <div className="space-y-20">
+        <div className="space-y-20 px-6">
           {caseStudies.map((study, index) => (
             <CaseStudyCard key={index} study={study} index={index} />
           ))}

@@ -2,7 +2,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer"; //
-import CaseStudies from "./components/CaseStudies";
+import CaseStudies from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import "./App.css";
