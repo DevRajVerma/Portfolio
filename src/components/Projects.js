@@ -9,7 +9,7 @@ const caseStudies = [
     category: "Shop Management",
     title: "Software App",
     description:
-      "An online platform offering exclusive discounts on premium business tools. It provides access to essential software at significantly reduced prices, helping businesses save over $1,500 on tools that drive growth.",
+      "An online platform offering exclusive discounts on premium business tools.",
     buttonLabel: "View Project",
     imageUrl: "/CaseStudies/Softwareapp.png",
     sitelink: "https://software-store-main.vercel.app/",
@@ -19,7 +19,7 @@ const caseStudies = [
     category: "E-commerce",
     title: "Gift Wala",
     description:
-      "An ecommerce platform where sellers can list their products and buyers can easily purchase whatever they like.",
+      "An ecommerce platform for gifts.",
     buttonLabel: "View Project",
     imageUrl: "/CaseStudies/Gift-wala.png",
     sitelink: "https://giftwala.vercel.app/",
@@ -29,7 +29,7 @@ const caseStudies = [
     category: "Web Development Intern",
     title: "GAOTek Inc.",
     description:
-      "GAOTek is a leading supplier of test and measurement equipment for fiber optics and telecommunications. I completed a three-month remote internship creating webpages for the company while learning valuable skills.",
+      "Completed a three-month remote internship.",
     buttonLabel: "View Certificate",
     imageUrl: "/CaseStudies/GaoTek.png",
     sitelink: "https://drive.google.com/file/d/12kwuJnr4MxtuPzhz6s2yrDymQ4mkOx7i/view?usp=sharing",
@@ -52,14 +52,10 @@ const CaseStudies = () => {
             Projects
             <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1.5 bg-gradient-to-r from-green-400 to-green-500 rounded-full"></span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-6">
-            Solving user & business problems since last 1.5+ years.
-            <br />
-            Crafting digital experiences that blend creativity with functionality.
-          </p>
+          
         </motion.div>
 
-        <div className="space-y-20 px-6">
+        <div className="space-y-20 px-4">
           {caseStudies.map((study, index) => (
             <CaseStudyCard key={index} study={study} index={index} />
           ))}
