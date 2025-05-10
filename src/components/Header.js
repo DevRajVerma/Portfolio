@@ -39,7 +39,7 @@ const Header = () => {
               onClick={toggleMenu}
               className="text-white hover:text-[#ffd700] transition-colors duration-300 px-5 md:px-0 py-2.5 md:py-0 block md:inline"
             >
-              Case Studies
+              Projects
             </a>
           </li>
           <li>
