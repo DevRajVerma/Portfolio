@@ -105,8 +105,8 @@ const CaseStudyCard = ({ study, index }) => {
           <img
             src={study.imageUrl || "/placeholder.svg"}
             alt={study.title}
-            fill
-            className="object-cover"
+        
+            className="object-cover w-full h-full absolute inset-0"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </motion.div>
