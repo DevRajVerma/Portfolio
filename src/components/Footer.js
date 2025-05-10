@@ -1,15 +1,8 @@
-// src/components/Footer.js
-import React from 'react';
-import './Footer.css';
-
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-// import ReactGA from 'react-ga';
 
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-black text-white py-4 text-center">
       <p>Made with ❤️</p>
     </footer>
   );
