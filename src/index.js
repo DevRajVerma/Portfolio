@@ -4,13 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
-// import ReactGA from 'react-ga';
-
-import GA4React from "ga-4-react";
-const ga4react = new GA4React("G-8VSG4RFGVV");
-ga4react.initialize().then().catch()
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

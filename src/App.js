@@ -7,15 +7,18 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import "./App.css";
 
+import { useEffect } from 'react';
+import { initGA } from './utils/analytics';
 import usePageTracking from "./components/usePageTracking";
 
-import GA4React from "ga-4-react";
-const ga4react = new GA4React("G-8VSG4RFGVV");
-ga4react.initialize().then().catch();
-
 function App() {
-  usePageTracking(); // Call the custom hook
+  // Initialize Google Analytics
+  useEffect(() => {
+    initGA('G-8VSG4RFGVV');
+  }, []);
 
+  usePageTracking(); // Call the custom hook
+ 
   return (
     <div className="App" style={{ overflow: "hidden" }}>
       <Header />
